@@ -1,13 +1,16 @@
 * li{
   list-style: none;
 }
+
 header{
   position: fixed;
   background-color: white;
   z-index: 3;
   border-bottom: 1px solid rgb(235, 235, 235);
 }
+
 .header-left ul{
+
   padding-inline-start: 20px;
   border-bottom: 2px solid rgb(235, 235, 235);
 }
@@ -26,5 +29,6 @@ header{
   color:rgb(59, 133, 138);
 }
 .header-left-list li:nth-child(1){
+/*ボーダーの幅はaで位置を親要素のliと合わせたい*/
   border-bottom: 2.5px solid rgb(59, 133, 138);
 }
