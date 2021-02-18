@@ -1,1 +1,1 @@
-# airbnb-1-bootstrap
+AirbnbのサイトをBootstrapを使って模写
